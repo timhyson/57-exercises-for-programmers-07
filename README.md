@@ -16,3 +16,7 @@ Create a program that calculates the area of the room.  Prompt the user for the 
 The formula for this conversion is  
 
 ``m^2 = f^2 x 0.09290304``  
+
+###Constraints
+- Keep the calculations separate from the output
+- Use a constant to hold the conversion factor
