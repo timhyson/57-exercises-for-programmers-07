@@ -13,7 +13,7 @@ Create a program that calculates the area of the room.  Prompt the user for the 
 ```300 square feet```  
 ```27.871 square meters```  
 
-The formula for this conversion is  
+The formula for this conversion is:  
 
 ``m^2 = f^2 x 0.09290304``  
 
