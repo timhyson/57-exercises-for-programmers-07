@@ -17,13 +17,12 @@ describe RoomArea do
 
   describe "#recap_mesage" do
     it "recaps the user's inputs" do
-      room = RoomArea.new
-      allow(room).to receive(:gets).and_return("15", "20")
+      allow(subject).to receive(:gets).and_return("15", "20")
       #expect(STDOUT).to receive(:puts).with("What is the length of the room in feet?")
       #allow(STDIN).to receive(:gets).and_return("15")
       #expect(STDOUT).to receive(:puts).with("What is the width of the room in feet?")
       #allow(STDIN).to receive(:gets).and_return("20")
-      expect(room.run_app).to eq("You entered dimensions of 15 feet by 20 feet.")
+      expect(subject.run_app).to eq("You entered dimensions of 15 feet by 20 feet.")
     end
   end
 end
